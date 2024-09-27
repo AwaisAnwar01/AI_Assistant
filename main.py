@@ -1,10 +1,10 @@
 # app/main.py
 
-import os
-from App.document_parser import extract_text_from_pdf
-from App.embedding_indexer import chunk_text, create_embeddings, index_embeddings
-from App.retrieval import retrieve_relevant_chunks
-from App.gpt_generator import generate_answer
+
+from document_parser import extract_text_from_pdf
+from embedding_indexer import chunk_text, create_embeddings, index_embeddings
+from retrieval import retrieve_relevant_chunks
+from gpt_generator import generate_answer
 from sentence_transformers import SentenceTransformer
 
 
