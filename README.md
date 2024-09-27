@@ -46,7 +46,7 @@ Getting Started
 
 ### Running the Application
 
-1.  bashCopy codegit clone https://github.com/yourusername/your-repo-name.gitcd your-repo-name
+1.  git clone https://github.com/yourusername/your-repo-name.gitcd your-repo-name
     
 2.  makefileCopy codeAPI\_KEY=your-api-key-here
     
